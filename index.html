@@ -5,14 +5,47 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Form-Making</title>
+  <link rel="stylesheet" href="style.css"
 </head>
 <body>
   <form>
+    <fieldset>
+      <legend>This is our Form</legend>
     First Name:-
-    <input type="text"><br><br>
+    <input type="text" placeholder=" Enter First Name"><br><br>
     Last Name:- 
-    <input type="text"><br><br>
+    <input type="text" placeholder=" Enter Last Name"><br><br>
+    E-mai:- 
+    <input type="email" placeholder=" Enter E-mail"><br><br>
+    Password:- 
+    <input type="password" placeholder=" Enter Password"><br><br>
+    Gender:- 
+    <input type="radio" name="gender" checked>Male
+    <input type="radio" name="gender">Female<br><br>
+    Country:-
+    <select>
+      <option>USA</option>
+      <option>China</option>
+      <option>Japan</option>
+      <option>Austrelia</option>
+      <option>Bhutan</option>
+      <option>India</option>
+      <option selected>Bangladesh</option>
+      <option>Pakistan</option>
+    </select><br><br>
+    Birth Date:- 
+    <input type="date" min="2000-01-01" max="2022-01-01"><br><br>
+    Age:- 
+    <input type="number" min="18" max="31" placeholder="age"><br><br>
+    Favourite Colour:- 
+    <input type="color"><br><br>
+    Chose NID:- 
+    <input type="file"><br><br>
+    Enter Address:- 
+    <textarea rows="10" cols="50">Enter Your Address:</textarea>><br><br>
     <input type="submit">
+    <input type="reset">
+    </fieldset>
   </form>
 </body>
 </html>
